@@ -1,3 +1,12 @@
+---
+title: Formation Musicale, Université Gustave Eiffel
+theme: simple
+revealOptions:
+transition: 'fade'
+hash: true
+---
+
+
 ## Formation Musicale
 
 Licence Musique et Métiers du son
@@ -8,7 +17,7 @@ Licence Musique et Métiers du son
 
 <span style="font-size:30px">
 Maxence Larrieu <br />
-<a href="https://orcid.org/0000-0002-1834-3007"> orcid.org/0000-0002-1834-3007 </a><br />
+<a href="https://cv.archives-ouvertes.fr/maxence-larrieu"> cv.archives-ouvertes.fr/maxence-larrieu </a><br />
 Chercheur associé LISAA<br />
 Université Gustave Eiffel<br />
 
@@ -63,7 +72,7 @@ Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des ga
 
 ---
 
-## A faire 
+## À faire 
 
 ----
 
@@ -99,17 +108,21 @@ maxence.larrieu`[symbol]`protonmail.com
 
 ---
 
-# FAQ
+# F.A.Q.
 
 ----
 
-### Aucun n'exercice n'apprait dans la page d'accueil
+### Aucun n'exercice n'apparait dans la page d'accueil
 
-dans l'application cliquer en haut à gauche sur _connecté_ puis _rafraîchir_
+<br />
+
+Dans Earmaster cliquer en haut à gauche sur _connecté_ puis _rafraîchir_
 
 ----
 
 ### Je n'ai pas d'ordinateur à ma disposition
+
+<br />
 
 utilisez ceux de l'URF LACT avec un casque
 
