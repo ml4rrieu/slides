@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template">## Formation Musicale
+
+Licence Musique et Métiers du son
+
+2021-22
+
+<br />
+<span style="font-size:30px">
+Maxence Larrieu <br />
+<a href="https://orcid.org/0000-0002-1834-3007"> orcid.org/0000-0002-1834-3007 </a><br />
+Chercheur associé LISAA<br />
+Université Gustave Eiffel<br />
+
+</span>
+</script></section><section data-markdown><script type="text/template">
+* Cours _intégralement_ à distance
+* avec logiciel Earmaster (à installer)
+</script></section><section data-markdown><script type="text/template">
+<iframe width="660" height="415" src="https://www.youtube.com/embed/FdsFho1Wv2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Objectif 
+</script></section><section data-markdown><script type="text/template">
+Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des gammes, des accords et des structures
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Évaluation 
+</script></section><section data-markdown><script type="text/template">
+1. En contrôle continu
+
+un exercice à réaliser chaque semaine <br />(entre lundi 8h00 et vendredi 24h00)
+
+impossible de rattraper l'exercice de la semaine précédence : l'exercice actuel écrase le précédent
+</script></section><section data-markdown><script type="text/template">2. Deux quizz par semestre
+
+3. Assiduité
+
+4. Autonomie
+</script></section></section><section ><section data-markdown><script type="text/template">
+## A faire 
+</script></section><section data-markdown><script type="text/template">
+- installez [Earmaster.com](https://www.earmaster.com/fr) sur PC/MAC/IPAD/IPHONE
+
+- se connecter à l'aide des identifiants que vous avez reçu
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Bonnes pratiques
+</script></section><section data-markdown><script type="text/template">
+- Si une nouvelle version est disponible **toujours** l'installer
+
+- L'exercice de la semaien se trouve sur la page d'accueil, à l'ouverture du logiciel
+
+- Syntaxe `L1_S2_6` : licence 1, semestre 2, exercice n° 6
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# Contact
+</script></section><section data-markdown><script type="text/template">
+En cas de problème et **avec modération**
+
+maxence.larrieu`[symbol]`protonmail.com
+
+> Toujours indiquer le numéro de version d'earmaster que vous utilisez
+</script></section></section><section ><section data-markdown><script type="text/template">
+# FAQ
+</script></section><section data-markdown><script type="text/template">
+### Aucun n'exercice n'apprait dans la page d'accueil
+
+dans l'application cliquer en haut à gauche sur _connecté_ puis _rafraîchir_
+</script></section><section data-markdown><script type="text/template">
+### Je n'ai pas d'ordinateur à ma disposition
+
+utilisez ceux de l'URF LACT avec un casque
+
+</script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
