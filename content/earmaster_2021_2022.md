@@ -5,6 +5,7 @@ Licence Musique et Métiers du son
 2021-22
 
 <br />
+
 <span style="font-size:30px">
 Maxence Larrieu <br />
 <a href="https://orcid.org/0000-0002-1834-3007"> orcid.org/0000-0002-1834-3007 </a><br />
@@ -16,7 +17,7 @@ Université Gustave Eiffel<br />
 ----
 
 * Cours _intégralement_ à distance
-* avec logiciel Earmaster (à installer)
+* Avec logiciel Earmaster (à installer)
 
 ----
 
@@ -32,22 +33,33 @@ Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des ga
 
 ---
 
-# Évaluation 
+# Comment ?  
 
 ----
 
-1. En contrôle continu
+* Avec Earmaster
 
-un exercice à réaliser chaque semaine <br />(entre lundi 8h00 et vendredi 24h00)
+* Des exercices sont chargés toutes les semaines
 
-impossible de rattraper l'exercice de la semaine précédence : l'exercice actuel écrase le précédent
+* A réaliser entre lundi 8h00 et vendredi 24h00
+
+* Attention : impossible de rattraper l'exercice de la semaine précédente
+
+* Réaliser l'exercice autant de fois que vous souhaitez
+
+---
+
+# Évaluation
 
 ----
-2. Deux quizz par semestre
 
-3. Assiduité
+1. Deux évaluations par semestre sur Earmaster
 
-4. Autonomie
+> seul les premières réponses sont enregistrées
+
+2. Assiduité
+
+3. Autonomie
 
 ---
 
@@ -67,7 +79,7 @@ impossible de rattraper l'exercice de la semaine précédence : l'exercice actue
 
 - Si une nouvelle version est disponible **toujours** l'installer
 
-- L'exercice de la semaien se trouve sur la page d'accueil, à l'ouverture du logiciel
+- L'exercice de la semaine se trouve sur la page d'accueil, à l'ouverture du logiciel
 
 - Syntaxe `L1_S2_6` : licence 1, semestre 2, exercice n° 6
 
