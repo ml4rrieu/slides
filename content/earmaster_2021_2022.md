@@ -76,9 +76,11 @@ _prise en compte des premières réponses_
 
 ----
 
+- Récupérer vos identifiants Earmaster sur votre messagerie étudiante [ent.univ-eiffel.fr](https://ent.univ-eiffel.fr/)
+
 - Installez [Earmaster.com](https://www.earmaster.com/fr) (PC/MAC/IPAD/IPHONE)
 
-- Se connecter à l'aide des identifiants que vous avez reçus
+- Se connecter avec vos identifiants 
 
 ---
 
@@ -86,7 +88,7 @@ _prise en compte des premières réponses_
 
 ----
 
-- Si une nouvelle version est disponible **toujours** l'installer
+- **Toujours** installer les dernières mises à jour disponibles.
 
 - L'exercice de la semaine se trouve sur la page d'accueil, à l'ouverture du logiciel
 
@@ -114,7 +116,7 @@ maxence.larrieu`[symbol]`protonmail.com
 
 ----
 
-### Aucun n'exercice n'apparait dans la page d'accueil
+### Aucun n'exercice n'apparait sur la page d'accueil
 
 <br />
 
@@ -126,5 +128,13 @@ Dans Earmaster cliquez en haut à gauche sur _connecté_ puis _rafraîchir_
 
 <br />
 
-Utilisez ceux de l'URF LACT avec un casque
+Utilisez les ordinateurs des salles informatiques de l'UFR LACT avec un casque
+
+----
+
+### Comment récupérer mes identifiants Earmaster ? 
+
+<br />
+
+Activer votre compte étudiant en suivant la procédure envoyée sur votre adresse personnelle. Consultez ensuite votre mesagerie étudiante sur [l'Environnement Numérique de Travail](https://vie-etudiante.univ-gustave-eiffel.fr/vie-pratique/environnements-numeriques/)
 
