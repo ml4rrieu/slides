@@ -50,11 +50,11 @@ Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des ga
 
 * Des exercices sont chargés toutes les semaines
 
-* A réaliser entre lundi 8h00 et vendredi 24h00
+* À réaliser entre lundi 8h00 et vendredi 24h00
 
 * Attention : impossible de rattraper l'exercice de la semaine précédente
 
-* Réaliser l'exercice autant de fois que vous souhaitez
+* Réalisez l'exercice autant de fois que vous souhaitez : _pratique de l'écoute_
 
 ---
 
@@ -64,7 +64,7 @@ Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des ga
 
 1. Deux évaluations par semestre sur Earmaster
 
-> seul les premières réponses sont enregistrées
+_prise en compte des premières réponses_
 
 2. Assiduité
 
@@ -76,9 +76,9 @@ Formation de l'oreille à la reconnaissance des rythmes, des intervalles, des ga
 
 ----
 
-- installez [Earmaster.com](https://www.earmaster.com/fr) sur PC/MAC/IPAD/IPHONE
+- Installez [Earmaster.com](https://www.earmaster.com/fr) (PC/MAC/IPAD/IPHONE)
 
-- se connecter à l'aide des identifiants que vous avez reçu
+- Se connecter à l'aide des identifiants que vous avez reçus
 
 ---
 
@@ -104,7 +104,9 @@ En cas de problème et **avec modération**
 
 maxence.larrieu`[symbol]`protonmail.com
 
-> Toujours indiquer le numéro de version d'earmaster que vous utilisez
+* indiquer systématiquement
+   - votre licence (L1, L2, L3)
+   - version de Earmaster
 
 ---
 
@@ -116,7 +118,7 @@ maxence.larrieu`[symbol]`protonmail.com
 
 <br />
 
-Dans Earmaster cliquer en haut à gauche sur _connecté_ puis _rafraîchir_
+Dans Earmaster cliquez en haut à gauche sur _connecté_ puis _rafraîchir_
 
 ----
 
@@ -124,5 +126,5 @@ Dans Earmaster cliquer en haut à gauche sur _connecté_ puis _rafraîchir_
 
 <br />
 
-utilisez ceux de l'URF LACT avec un casque
+Utilisez ceux de l'URF LACT avec un casque
 
