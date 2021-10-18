@@ -40,11 +40,24 @@
         color:rgb(87, 87, 87);
         font-size: 110%;
         letter-spacing: 0.1rem;
+
 }    
 .typed-cursor {
   font-size: 5.5rem;
   color:rgb(87, 87, 87);
+  //animation: blink .2s infinite;
 }
+ @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 </style>
 
 
@@ -237,7 +250,7 @@ Credit : authors/lab/institutions
    </section>
 
 <section >
-   <h3 >Il s'agit moins de mettre en ligne des <span class="reveal code" style="font-family:monospace;">.pdf</span>, <span class="reveal code" style="font-family:monospace;">.zip </span>, que d'utiliser le web pour <br />
+   <h3 >Il s'agit moins de mettre en ligne des <span class="reveal code" style="font-family:monospace;">.pdf</span>, <span class="reveal code" style="font-family:monospace;">.zip</span>, que d'utiliser le web pour <br />
    <span class="typedjs" style="color:black;"></span>
    </h3>
 
@@ -249,11 +262,13 @@ Credit : authors/lab/institutions
 
     <script>
      var typed = new Typed('.typedjs', {
-            strings: ["structurer nos connaissances", "construire notre patrimoine"],
-            typeSpeed: 100 ,
+            strings: ["structurer nos connaissances.", "construire notre patrimoine."],
+            typeSpeed: 70 ,
+            startDelay : 3000,
             backSpeed: 30,
-            backDelay : 1000,
+            backDelay : 4000,
             loop: true,
+            loopCount: 4,
             cursorChar: "|",
         });
     </script>
