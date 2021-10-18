@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-
+    <!-- typed.min.js file from typed.js folder -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Add jquery cdn -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
   </head>
   <body>
-    <div class="reveal">
+
+   <div class="reveal">
       <div class="slides"><section ><section data-markdown><script type="text/template">
 
 <style>
@@ -31,9 +35,10 @@
 .biblio{
    font-size:50%;
 }
-.element {
+
+.typedjs {
         color:rgb(87, 87, 87);
-        font-size: 5.7rem;
+        font-size: 110%;
         letter-spacing: 0.1rem;
 }    
 .typed-cursor {
@@ -43,8 +48,7 @@
 </style>
 
 
-<!--
-<span class="element"></span> -->
+
 
 ## Archiver et Ouvrir le code de la Computer Music
 
@@ -194,7 +198,7 @@ Préserver : s'assurer que l'object reste technologiquement lisible
 
 <span style="font-size:80%"> _nyx_ (2017) "real time pd compositon", composed by Kerry Hagan https://doi.org/10.5281/zenodo.3971610 </span>
 </script></section><section data-markdown><script type="text/template">
-### Quest-ce que rendre accessible du code à notre époque ? 
+### Qu'est-ce que rendre accessible du code à notre époque ? 
 
 <div style="margin-left:10%;margin-top: 10%;text-align: left;">
 
@@ -226,17 +230,33 @@ Credit : authors/lab/institutions
 
 </div>
 
-</script></section></section><section ><section data-markdown><script type="text/template">
-coda
-</script></section><section data-markdown><script type="text/template">
+</script></section></section>
+<section >
+   <section>
+   <h3>coda</h3>
+   </section>
 
-### Il s'agit moins de mettre en ligne des `.pdf` `.zip`, que d'utiliser le web pour structurer notre patrimoine
+<section >
+   <h3 >Il s'agit moins de mettre en ligne des <span class="reveal code" style="font-family:monospace;">.pdf</span>, <span class="reveal code" style="font-family:monospace;">.zip </span>, que d'utiliser le web pour <br />
+   <span class="typedjs" style="color:black;"></span>
+   </h3>
 
+   </section>
+</section>
 
-<!-- ### construire notre patrimoine -->
-
-</script></section></section></div>
+</div>
     </div>
+
+    <script>
+     var typed = new Typed('.typedjs', {
+            strings: ["structurer nos connaissances", "construire notre patrimoine"],
+            typeSpeed: 100 ,
+            backSpeed: 30,
+            backDelay : 1000,
+            loop: true,
+            cursorChar: "|",
+        });
+    </script>
 
     <script src="./dist/reveal.js"></script>
 
