@@ -29,9 +29,22 @@
 }
 
 .biblio{
-   font-size:70%;
+   font-size:50%;
+}
+.element {
+        color:rgb(87, 87, 87);
+        font-size: 5.7rem;
+        letter-spacing: 0.1rem;
+}    
+.typed-cursor {
+  font-size: 5.5rem;
+  color:rgb(87, 87, 87);
 }
 </style>
+
+
+<!--
+<span class="element"></span> -->
 
 ## Archiver et Ouvrir le code de la Computer Music
 
@@ -60,10 +73,10 @@ _Entre computer music et science ouverte_
 
 <br />
 
-* 2018 PhD, UPEM, Musicologie : computer music.<br />
-"analyser la computer music à partir de son code"
+* 2018 PhD, UPEM, Musicologie : Computer Music<br />
+"Analyser la computer music à partir de son code"
 
-* 2016 - présent, science ouverte en université
+* 2016-2021 développeur science ouverte en universités
 
 <!-- .slide: data-transition-speed="slow" -->
 
@@ -102,23 +115,33 @@ Knowledge-creation could be more efficient if scientists worked together<br/>
 <span class="biblio">Fecher B _et al._ 2014, [Open Science: One Term, Five Schools of Thought](https://doi.org/10.1007/978-3-319-00026-8_2) </span>
 
 </script></section><section data-markdown><script type="text/template">
-![image](attachments/open_science_venn.png)
+![science ouverte dimensions](attachments/open_science_venn.png)
 </script></section><section data-markdown><script type="text/template">
-### 3 axes <span style="font-size:50%">non limitatifs </span>  de la science ouverte : 
+![la science ouverte au MESRI](attachments/mesri_coso.png)
 
-<br />
+[ouvrirlascience.fr](https://www.ouvrirlascience.fr/)
+
+</script></section><section data-markdown><script type="text/template">
+### Axes du Plan National <br /> pour la Science Ouverte : 
+
 
 * les publications <span style="font-size:50%"> `.pdf`</span>
 
-* les données <span style="font-size:50%"> `.csv`</span>
+* les données <span style="font-size:50%"> `.json`</span>
 
-* les logiciels <span style="font-size:50%"> `.py`</span>
+* les codes sources des logiciels <span style="font-size:50%"> `.py`</span>
+
+* l'évaluation de la recherche
 
 </script></section><section data-markdown><script type="text/template">
-#### Le Web comme medium de la science
-
 ![image](attachments/OS_plateformes.png)
 
+
+#### Le Web comme medium de la science
+</script></section><section data-markdown><script type="text/template">
+![collection HAL des JIM](attachments/hal_jim.png) <!-- .element width="100%" -->
+
+[hal.archives-ouvertes.fr/JIM](https://hal.archives-ouvertes.fr/JIM/)
 </script></section></section><section ><section data-markdown><script type="text/template">
 <!-- .slide: data-transition="fade" --> 
 
@@ -173,7 +196,7 @@ Préserver : s'assurer que l'object reste technologiquement lisible
 </script></section><section data-markdown><script type="text/template">
 ### Quest-ce que rendre accessible du code à notre époque ? 
 
-<span style="margin-left:10%;text-align: left;">
+<div style="margin-left:10%;margin-top: 10%;text-align: left;">
 
 Archive : long terme
 
@@ -181,44 +204,36 @@ Reference : identifiers
 
 Describe  : metadata
 
-Credit : authors/institutions
+Credit : authors/lab/institutions
 
-</span>
+</div>
 
-<br />
 
-source [![](attachments/software_heritage_logo.png)](https://www.softwareheritage.org/2020/10/23/towards-an-open-architecture-of-scholarly-infrastructures-for-research-software/?lang=fr)
+[![](attachments/software_heritage_logo.png)](https://www.softwareheritage.org/2020/10/23/towards-an-open-architecture-of-scholarly-infrastructures-for-research-software/?lang=fr)
 
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Les vertus de l'ouverture
 </script></section><section data-markdown><script type="text/template">
-<div style="margin-left:-20%;margin-right:-20%;line-height: 3.2;">
+<div style="margin-left:-20%;margin-right:-20%">
 
-- Reproductibilité <span style="font-size:70%"> fin du "puis-je avoir votre patch ?"</span>
+- Reproductibilité <span class="biblio"> fin du "puis-je avoir votre patch ?"</span>
 
 - Public plus large <span class="biblio"> Park TH 2020, [The Electro-AcousticMusicMine Project(EAMM)](https://doi.org/10.25370/array.v20202627)</span>
 
-- Réutilisation <span style="font-size:70%"> Svidzinski J, Bonardi A 2020, [Analyse créative du répertoire mixte](https://hal.archives-ouvertes.fr/JIM/hal-03362951v1)</span>
+- Réutilisation <span class="biblio"> Svidzinski J, Bonardi A 2020, [Analyse créative du répertoire mixte](https://hal.archives-ouvertes.fr/JIM/hal-03362951v1)</span>
 
 - Valoriser le patrimoine
 
 </div>
+
 </script></section></section><section ><section data-markdown><script type="text/template">
 coda
 </script></section><section data-markdown><script type="text/template">
-### Il s'agit moins de partager son `.pdf` `.zip`, que d'utiliser le web pour 
 
-### structurer nos connaissances
-
-### construire notre patrimoine
-</script></section><section data-markdown><script type="text/template">
-<div class="banner">
-   <div class="typed_wrap">
-      <h1>We Are <span class="typed"></span></h1>
-   </div>
-</div>
+### Il s'agit moins de mettre en ligne des `.pdf` `.zip`, que d'utiliser le web pour structurer notre patrimoine
 
 
+<!-- ### construire notre patrimoine -->
 
 </script></section></section></div>
     </div>
@@ -263,11 +278,9 @@ coda
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"scripts":"script/antony_scripts.js"}, queryOptions);
+      var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
-    <script src="./_assets/lib/typed.min.js"></script>
-    <script src="./_assets/lib/jquery.min.js"></script>
 
     <script>
       Reveal.initialize(options);
